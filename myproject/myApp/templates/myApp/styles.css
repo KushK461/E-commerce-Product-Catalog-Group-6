@@ -1,0 +1,82 @@
+/* Custom styles for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar custom styles */
+.navbar {
+    background-color: #ffffff; /* White background for the navbar */
+    border-bottom: 2px solid #007bff; /* Blue border at the bottom */
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007bff; /* Blue color for the brand text */
+}
+
+.navbar-brand:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    color: #333;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link {
+    color: #007bff; /* Blue color on hover and for active items */
+}
+
+.navbar-nav .nav-item.disabled .nav-link {
+    color: #999; /* Gray color for disabled links */
+}
+
+.navbar-toggler {
+    border: none; /* Removes the border around the toggle button */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%280, 0, 0, 0.5%29" stroke-width="2" linecap="round" linejoin="round" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.form-inline .form-control {
+    border-radius: 20px; /* Rounded corners for the search input */
+}
+
+.form-inline .btn {
+    border-radius: 20px; /* Rounded corners for the search button */
+}
+
+/* Dropdown menu custom styles */
+.dropdown-menu {
+    background-color: #ffffff; /* White background for dropdowns */
+    border: 1px solid #ddd; /* Light border */
+}
+
+.dropdown-item {
+    color: #333;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa; /* Light gray background on hover */
+    color: #007bff; /* Blue text on hover */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        font-size: 1.5rem; /* Slightly smaller brand text on small screens */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.9rem; /* Slightly smaller nav links on small screens */
+    }
+}
